@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4C4C4C"
+    tools:context="com.example.jgh.myapplication.Activity.loding">
+
+    <RelativeLayout
+        android:layout_width="358dp"
+        android:layout_height="fill_parent">
+        <ImageView
+            android:id="@+id/handcuffs"
+            android:layout_width="280dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="45dp"
+            android:background="@drawable/handcuffs"/>
+        <TextView
+            android:layout_width="177dp"
+            android:layout_height="80dp"
+            android:background="@drawable/border"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="200dp"
+            android:text=" Crime"
+            android:textColor="#FFFFFF"
+            android:textSize="58dp" />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="260dp"
+            android:layout_marginLeft="280dp"
+            android:text="Bit" />
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

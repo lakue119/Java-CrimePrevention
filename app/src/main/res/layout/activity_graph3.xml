@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jgh.myapplication.Activity.Graph3">
+
+    <LinearLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+
+        xmlns:tools="http://schemas.android.com/tools"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/mainLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:orientation="vertical"
+            android:background="#FFFFFF">
+            <GridLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <Spinner
+                    android:id="@+id/sin_capital1"
+                    android:layout_column="0"
+                    android:layout_width="170dp"
+                    android:layout_height="30dp"
+                    app:layout_constraintLeft_toRightOf="parent"></Spinner>
+                <Spinner
+                    android:id="@+id/sin_local1"
+                    android:layout_column="1"
+                    android:layout_width="170dp"
+                    android:layout_height="30dp"
+                    app:layout_constraintLeft_toRightOf="parent"></Spinner>
+
+            </GridLayout>
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/chart1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                ></com.github.mikephil.charting.charts.BarChart>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:orientation="vertical"
+            android:background="#000000">
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/mainLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:orientation="vertical"
+            android:background="#FFFFFF">
+            <GridLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <Spinner
+                    android:id="@+id/sin_capital2"
+                    android:layout_column="0"
+                    android:layout_width="170dp"
+                    android:layout_height="30dp"
+                    app:layout_constraintLeft_toRightOf="parent"></Spinner>
+                <Spinner
+                    android:id="@+id/sin_local2"
+                    android:layout_column="1"
+                    android:layout_width="170dp"
+                    android:layout_height="30dp"
+                    app:layout_constraintLeft_toRightOf="parent"></Spinner>
+
+
+            </GridLayout>
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/chart2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                ></com.github.mikephil.charting.charts.BarChart>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:orientation="vertical"
+            android:background="#000000"/>
+        <LinearLayout
+            android:id="@+id/mainLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_column="0"
+            android:layout_row="4"
+            android:orientation="vertical"
+            android:background="#FFFFFF">
+            <GridLayout
+                android:layout_width="fill_parent"
+                android:layout_height="192dp"
+                android:layout_column="3"
+                android:layout_row ="5">
+                <TextView
+                    android:id="@+id/local3"
+                    android:layout_rowSpan="10"
+                    android:layout_width="70dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="40dp"
+                    android:textColor="#000000"
+                    android:layout_column="0"
+                    android:layout_row="0"
+                    android:text="지역" />
+                <TextView
+                    android:id="@+id/local4"
+                    android:layout_width="70dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="150dp"
+                    android:textColor="#000000"
+                    android:layout_column="1"
+                    android:layout_row="0"
+                    android:text="지역" />
+                <TextView
+                    android:id="@+id/cctv1"
+                    android:layout_width="60dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="45dp"
+                    android:textColor="#000000"
+                    android:layout_column="0"
+                    android:layout_row="1"
+                    android:text="0" />
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="50dp"
+                    android:textColor="#000000"
+                    android:layout_column="1"
+                    android:layout_row="1"
+                    android:text="CCTV" />
+                <TextView
+                    android:id="@+id/cctv2"
+                    android:layout_width="60dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="160dp"
+                    android:textColor="#000000"
+                    android:layout_column="1"
+                    android:layout_row="1"
+                    android:text="0" />
+                <TextView
+                    android:id="@+id/lamp1"
+                    android:layout_width="60dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="45dp"
+                    android:textColor="#000000"
+                    android:layout_column="0"
+                    android:layout_row="2"
+                    android:text="0" />
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_column="1"
+                    android:layout_marginLeft="50dp"
+                    android:textColor="#000000"
+                    android:layout_row="2"
+                    android:text="보안등" />
+                <TextView
+                    android:id="@+id/lamp2"
+                    android:layout_width="60dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="160dp"
+                    android:textColor="#000000"
+                    android:layout_column="1"
+                    android:layout_row="2"
+                    android:text="0" />
+                <TextView
+                    android:id="@+id/population1"
+                    android:layout_width="60dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="45dp"
+                    android:textColor="#000000"
+                    android:layout_column="0"
+                    android:layout_row="3"
+                    android:text="0" />
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_column="1"
+                    android:layout_marginLeft="50dp"
+                    android:textColor="#000000"
+                    android:layout_row="3"
+                    android:text="인구수" />
+                <TextView
+                    android:id="@+id/population2"
+                    android:layout_width="60dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="160dp"
+                    android:textColor="#000000"
+                    android:layout_column="1"
+                    android:layout_row="3"
+                    android:text="0" />
+                <TextView
+                    android:id="@+id/crime1"
+                    android:layout_width="60dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="45dp"
+                    android:textColor="#000000"
+                    android:layout_column="0"
+                    android:layout_row="4"
+                    android:text="0" />
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#000000"
+                    android:layout_column="1"
+                    android:layout_marginLeft="50dp"
+                    android:layout_row="4"
+                    android:text="발생건수" />
+                <TextView
+                    android:id="@+id/crime2"
+                    android:layout_width="60dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="160dp"
+                    android:textColor="#000000"
+                    android:layout_column="1"
+                    android:layout_row="4"
+                    android:text="0" />
+            </GridLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

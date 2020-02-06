@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jgh.myapplication.Activity.busanactivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/busan"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="부산"
+            android:textSize="40dp"
+            android:textColor="#F6F6F6"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="270dp"/>
+        <Button
+            android:id="@+id/btn_Gijang"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="150dp"
+            android:background="#00ff0000"
+            android:onClick="onClickGijang"
+            android:text="기장"
+            android:textColor="#F6F6F6"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_Geumjeong"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="200dp"
+            android:background="#00ff0000"
+            android:onClick="onClickGeumjeong"
+            android:text="금정"
+            android:textColor="#F6F6F6"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_Busan_Bukgu"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="250dp"
+            android:background="#00ff0000"
+            android:onClick="onClickBusan_Bukgu"
+            android:text="북구"
+            android:textColor="#F6F6F6"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_Haeundae"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="300dp"
+            android:background="#00ff0000"
+            android:onClick="onClickHaeundae"
+            android:text="해운대"
+            android:textColor="#F6F6F6"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_Yeonje"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="295dp"
+            android:background="#00ff0000"
+            android:onClick="onClickYeonje"
+            android:text="연제"
+            android:textColor="#F6F6F6"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_Dongnae"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="270dp"
+            android:background="#00ff0000"
+            android:onClick="onClickDongnae"
+            android:text="동래"
+            android:textColor="#F6F6F6"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_Suyeong"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="320dp"
+            android:background="#00ff0000"
+            android:onClick="onClickSuyeong"
+            android:text="수영"
+            android:textColor="#F6F6F6"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_Busan_Namgu"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="370dp"
+            android:background="#00ff0000"
+            android:onClick="onClickBusan_Namgu"
+            android:text="남구"
+            android:textColor="#F6F6F6"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_Busan_Donggu"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="155dp"
+            android:layout_marginTop="370dp"
+            android:background="#00ff0000"
+            android:onClick="onClickBusan_Donggu"
+            android:text="동구"
+            android:textColor="#F6F6F6"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_Busan_Seogu"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="400dp"
+            android:background="#00ff0000"
+            android:onClick="onClickBusan_Seogu"
+            android:text="서구"
+            android:textColor="#F6F6F6"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_Jingu"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="330dp"
+            android:background="#00ff0000"
+            android:onClick="onClickJingu"
+            android:text="진구"
+            android:textColor="#F6F6F6"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_Sasang"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="330dp"
+            android:background="#00ff0000"
+            android:onClick="onClickSasang"
+            android:text="사상"
+            android:textColor="#F6F6F6"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_Busan_Gangseo"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="360dp"
+            android:background="#00ff0000"
+            android:onClick="onClickBusan_Gangseo"
+            android:text="강서"
+            android:textColor="#F6F6F6"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_Saha"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="115dp"
+            android:layout_marginTop="410dp"
+            android:background="#00ff0000"
+            android:onClick="onClickSaha"
+            android:text="사하"
+            android:textColor="#F6F6F6"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_Yeongdo"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="435dp"
+            android:background="#00ff0000"
+            android:onClick="onClickYeongdo"
+            android:text="영도"
+            android:textColor="#F6F6F6"
+            android:textStyle="bold" />
+
+
+        <GridLayout
+            android:layout_width="180dp"
+            android:layout_height="130dp"
+            android:background="@drawable/border"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp">
+            <TextView
+                android:text="정보"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                />
+
+            <TextView
+                android:text="CCTV 대수  :"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_row="1"
+                android:layout_column="0"
+                />
+            <TextView
+                android:id="@+id/txt_cctvcount"
+                android:text="0 대"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_row="1"
+                android:layout_column="1"/>
+            <TextView
+                android:text="보안등 대수 :"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_row="2"
+                android:layout_column="0"
+                />
+            <TextView
+                android:id="@+id/txt_lampcount"
+                android:text="0 대"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_row="2"
+                android:layout_column="1"/>
+            <TextView
+                android:text="인구수      :"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_row="3"
+                android:layout_column="0"
+                />
+            <TextView
+                android:id="@+id/txt_Population"
+                android:text="0 명"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_row="3"
+                android:layout_column="1"/>
+            <TextView
+                android:text="범죄건 수 :"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_row="4"
+                android:layout_column="0"
+                />
+            <TextView
+                android:id="@+id/txt_Crime"
+                android:text="0 건"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_row="4"
+                android:layout_column="1"/>
+
+        </GridLayout>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/col" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
